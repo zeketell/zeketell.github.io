@@ -2,12 +2,11 @@ body {
 	color: lightcoral;
 	background: #000;
 	font-family: "Trebuchet MS Narrow", sans-serif;
-	text-align: right;
-	margin: 20px 20px 20px 20px;
+	margin: 0px 15px 20px 15px;
 
 }
 h1 {
-	font-size: 24pt;
+	font-size: 28pt;
 	font-family: "Trebuchet MS Narrow";
 	text-transform: lowercase;
 	text-align: left;
@@ -17,6 +16,7 @@ a {
 	font-family: "Gill Sans", sans-serif;
 	text-transform: lowercase;
 	color: #FDFFE2;
+	text-align: right;
 }
 
 ul {
@@ -24,23 +24,23 @@ ul {
 	font-weight: bold;
 	font-size: 22px;
 	text-transform: lowercase;
-	text-align: right;
+	text-align: center;
 }
 
 img {
-	height: 630px;
-	float: right;
-	margin: 0px 6px 24px 12px;
-	margin-top: 
+	height: 400px;
+	margin: 10px 0px 0px 0px;
+	float: left;
 }
 
 #slogan {	
-	font-size: 62pt;
+	font-size: 82pt;
 	font-family: "Gill Sans", sans-serif;
 	font-weight: bold;
 	color: #FDFFE2;
 	font-style: italic;
 	text-align: center;
+	margin: 100px 100px 80px 100px;
 }
 
 .desc {
@@ -48,4 +48,5 @@ img {
 	font-family: "Gill Sans", sans-serif;
 	font-style: italic;
 	text-align: justify;
+	margin: 0px 848px 00px 0px;
 }
