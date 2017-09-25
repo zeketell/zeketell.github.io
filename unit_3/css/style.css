@@ -1,0 +1,51 @@
+body {
+	color: lightcoral;
+	background: #000;
+	font-family: "Trebuchet MS Narrow", sans-serif;
+	text-align: right;
+	margin: 20px 20px 20px 20px;
+
+}
+h1 {
+	font-size: 24pt;
+	font-family: "Trebuchet MS Narrow";
+	text-transform: lowercase;
+	text-align: left;
+}
+
+a {
+	font-family: "Gill Sans", sans-serif;
+	text-transform: lowercase;
+	color: #FDFFE2;
+}
+
+ul {
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 22px;
+	text-transform: lowercase;
+	text-align: right;
+}
+
+img {
+	height: 630px;
+	float: right;
+	margin: 0px 6px 24px 12px;
+	margin-top: 
+}
+
+#slogan {	
+	font-size: 62pt;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+	color: #FDFFE2;
+	font-style: italic;
+	text-align: center;
+}
+
+.desc {
+	font-size: 12pt;
+	font-family: "Gill Sans", sans-serif;
+	font-style: italic;
+	text-align: justify;
+}
