@@ -6,7 +6,7 @@ body {
 
 }
 h1 {
-	font-size: 28pt;
+	font-size: 26pt;
 	font-family: "Trebuchet MS Narrow";
 	text-transform: lowercase;
 	text-align: left;
@@ -29,7 +29,7 @@ ul {
 
 img {
 	height: 400px;
-	margin: 10px 0px 0px 0px;
+	margin: 10px 160px 0px 0px;
 	float: left;
 }
 
@@ -48,5 +48,5 @@ img {
 	font-family: "Gill Sans", sans-serif;
 	font-style: italic;
 	text-align: justify;
-	margin: 0px 848px 00px 0px;
+	margin: 0px 820px 00px 0px;
 }
