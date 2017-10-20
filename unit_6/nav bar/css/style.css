@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+a {
+	font-size: 24px;
+	color: gold;
+  	text-decoration: none;
+  	display: block;
+  	float: left;
+  	width: 150px;
+  	padding: 20px;
+/*  	border: 2px solid black;*/
+  	margin: 10px;
+}
+
+a:hover {
+	background-color: gold;
+	color: white;
+/*	text-align: left;*/
+	/*text-decoration: underline;
+	text-decoration-color: black;*/
+}
+
+nav {
+	font-family: "Maven Pro", sans-serif;
+	font-weight: bold;
+	color: #FDFFE2;	
+	text-align: center;
+}
