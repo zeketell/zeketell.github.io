@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|News+Cycle:700|Quattrocento+Sans|Sanchez|Source+Code+Pro:700');
 
 body {
+	font-family: 'Sanchez', serif;
 	font-size: 24px;
 	color: #fbfbfb;
 	background: black;
@@ -15,8 +16,9 @@ h1 {
 }
 
 h2 {
+	font-family: 'Sanchez', serif;
 	font-size: 2em;
-	font-family: 'Anton', sans-serif;
+	font-weight: 600;
 	padding: 1%;
 
 }
