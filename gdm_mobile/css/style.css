@@ -1,46 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|News+Cycle:700|Quattrocento+Sans|Sanchez|Source+Code+Pro:700');
 
 body {
-	font-size: 18px;
+	font-size: 24px;
 	color: #fbfbfb;
 	background: black;
 
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 36px;
 	font-family: 'Anton', sans-serif;
 	padding: 1%;
 
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Anton', sans-serif;
 	padding: 1%;
 
 }
 
 h3 {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Source Code Pro', monospace;
 	padding: 1%;
 }
 
 h4 {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Quattrocento Sans', sans-serif;
 	padding: 1%;
 }
 
 h5 {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Sanchez', serif;
 	padding: 1%;
 }
 
 h6 {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'News Cycle', sans-serif;
 	padding: 1%;
 }
