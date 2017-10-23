@@ -3,40 +3,51 @@
 body {
 	font-size: 18px;
 	color: #fbfbfb;
+	background: green;
 }
 
 h1 {
 	font-size: 2em;
-	font-weight: bold;
 	font-family: 'Anton', sans-serif;
 	padding: 1%;
 
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 3em;
+	font-family: 'Anton', sans-serif;
+	padding: 1%;
+
+}
+
+h3 {
+	font-size: 3em;
 	font-family: 'Source Code Pro', monospace;
 	padding: 1%;
 }
 
-h3 {
-	font-size: 2em;
+h4 {
+	font-size: 3em;
 	font-family: 'Quattrocento Sans', sans-serif;
 	padding: 1%;
 }
 
-h4 {
-	font-size: 2em;
+h5 {
+	font-size: 3em;
 	font-family: 'Sanchez', serif;
 	padding: 1%;
 }
 
-h5 {
-	font-size: 2em;
+h6 {
+	font-size: 3em;
 	font-family: 'News Cycle', sans-serif;
 	padding: 1%;
 }
 
+p {
+	padding: 1%;
+
+}
 
 img {
 
@@ -49,49 +60,33 @@ a {
 	text-decoration: none;
 }
 
-span {
+.logosml {
 	font-size: .4em;
 
 }
 
+.logoname {
+	font-weight: 500;
+}
+
 section {
-	margin: 20px;
-	padding: 40px;
 }
 
 #wrapper {
-	width: 600px;
+	width: 820px;
 	background: black;
 }
 
-#testparagraph1 {
-	bottom-border: 7px dashed #fff;
-
-}
-#testparagraph2 {
-
-	bottom-border: 7px dotted #fff;
-
-}
-#testparagraph3 {
-
-	bottom-border: 7px dotted #fff;
-
-}
-#testparagraph4 {
-
-	bottom-border: 7px dotted #fff;
-
-}
-#testparagraph5 {
-
-	bottom-border: 7px dotted #fff;
+.testparagraph {
+	padding: 4px;
+	margin-bottom: 60px;
+	border-bottom: 1px dotted #fff;
 
 }
 
 
 .column {
-	width: 50%;
+	width: 70%;
 	text-align: left;
 	clear: both;
 }
