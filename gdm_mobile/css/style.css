@@ -4,6 +4,7 @@ body {
 	font-size: 18px;
 	color: #fbfbfb;
 	background: green;
+	
 }
 
 h1 {
@@ -71,11 +72,11 @@ a {
 
 section {
 }
-
+/*
 #wrapper {
 	width: 820px;
 	background: black;
-}
+}*/
 
 .testparagraph {
 	padding: 4px;
