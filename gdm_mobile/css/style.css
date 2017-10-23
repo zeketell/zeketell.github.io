@@ -40,8 +40,8 @@ h5 {
 
 img {
 
-	padding: 2px;
-	margin: 2px;
+	padding: 20px;
+
 }
 
 a {
@@ -65,36 +65,33 @@ section {
 }
 
 #testparagraph1 {
-margin: 40px;
-	/*bottom-border: 7px dotted #fff;*/
+	bottom-border: 7px dashed #fff;
 
 }
 #testparagraph2 {
-margin: 40px;
-	/*bottom-border: 7px dotted #fff;*/
+
+	bottom-border: 7px dotted #fff;
 
 }
 #testparagraph3 {
-margin: 40px;
-	/*bottom-border: 7px dotted #fff;*/
+
+	bottom-border: 7px dotted #fff;
 
 }
 #testparagraph4 {
-margin: 40px;
-	/*bottom-border: 7px dotted #fff;*/
+
+	bottom-border: 7px dotted #fff;
 
 }
 #testparagraph5 {
-margin: 40px;
-	/*bottom-border: 7px dotted #fff;*/
+
+	bottom-border: 7px dotted #fff;
 
 }
 
 
 .column {
-	width: 100%;
-	padding: 1%;
-	border: 2px solid #000;
+	width: 50%;
 	text-align: left;
 	clear: both;
 }
