@@ -88,7 +88,6 @@ img {
 }
 
 #content {
-  width: 820px;
 }
 
 .headline {
@@ -100,7 +99,7 @@ img {
   font-size: 2.2em;
   color: #888;
   font-weight: lighter;
-  padding: 1%;
+  padding: 2%;
   margin: 1%;
 }
 
