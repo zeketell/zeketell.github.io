@@ -16,8 +16,8 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
-	font-family: 'Oswald', sans-serif;
+	font-size: 1.75em;
+  font-family: 'Source Sans Pro', sans-serif;
 	color: black;
 	padding: 1%;
 
@@ -33,18 +33,6 @@ h4 {
 	font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
-	padding: 1%;
-}
-
-h5 {
-	font-size: 2em;
-	font-family: 'Sanchez', serif;
-	padding: 1%;
-}
-
-h6 {
-	font-size: 2em;
-	font-family: 'Source Sans Pro', sans-serif;
 	padding: 1%;
 }
 
@@ -78,6 +66,8 @@ footer {
 ul {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+
 #container {
 	width: 820px;
 }
@@ -88,12 +78,15 @@ ul {
   padding: 1.5%;
 }
 
+img {
+  margin: 0 auto;
+}
+
 #aside {
   font-size: 2em;
   float: right;
   width: 28%;
 }
-
 
 #content {
   width: 820px;
@@ -117,9 +110,6 @@ ul {
 .logoname {
   font-weight: 500;
 }
-
-
-
 
 .clearfix:after {
   visibility: hidden;
