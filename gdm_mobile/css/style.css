@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|News+Cycle:700|Quattrocento+Sans|Sanchez|Source+Sans+Pro|Oswald');
 
 body {
-	font-family: 'Source Sans Pro', serif;
+	font-family: 'Sanchez', serif;
 	font-size: 34px;
 	color: #000;
 	background: #fff;
@@ -32,7 +32,7 @@ h3 {
 h4 {
 	font-size: 2em;
 	font-weight: 500;
-  font-family: 'Quattrocento Sans', sans-serif;
+ font-family: 'Oswald', sans-serif;
 	padding: 1%;
 }
 
@@ -74,6 +74,7 @@ section {
 footer {
   clear: both;
 }
+
 #container {
 	width: 820px;
 }
