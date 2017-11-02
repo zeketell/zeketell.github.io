@@ -3,8 +3,8 @@
 body {
 	font-family: 'Sanchez', serif;
 	font-size: 34px;
-	background: #fff;
   text-align: center;
+  background: #2a5b54;
 
 }
 
@@ -57,9 +57,11 @@ a {
 header {
   text-align: left;
   border-bottom: 6px solid turquoise;
+  clear: both;
 }
 
 section {
+
 
 }
 
@@ -71,6 +73,10 @@ ul {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+#wrapper {
+  width: 820px;
+  margin: 0 auto;
+}
 
 #container {
 	width: 820px;
@@ -80,6 +86,7 @@ ul {
   float: left;
   width: 69%;
   padding: 1.5%;
+  clear: both;
 }
 
 #aside {
