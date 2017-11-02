@@ -3,7 +3,6 @@
 body {
 	font-family: 'Sanchez', serif;
 	font-size: 34px;
-	color: #000;
 	background: #fff;
 
 }
@@ -25,7 +24,7 @@ h2 {
 
 h3 {
 	font-size: 2em;
-	 font-family: 'Anton', sans-serif;
+	font-family: 'Anton', sans-serif;
 	padding: 1%;
 }
 
@@ -99,6 +98,8 @@ img {
 
 .mobiletext {
   font-size: 2.2em;
+  color: #888;
+  font-weight: lighter;
   padding: 1%;
   margin: 1%;
 }
