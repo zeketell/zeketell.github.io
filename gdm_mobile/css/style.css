@@ -49,7 +49,6 @@ h6 {
 }
 
 p {
-	font-size: 2em;
   padding: 1%;
 }
 
@@ -93,13 +92,15 @@ footer {
 }
 
 
-#articlewrapper {
+#content {
   width: 820px;
 }
 
+.mobiletext {
+  font-size: 2.2em;
+}
 .logosml {
   font-size: .4em;
-
 }
 
 .logoname {
