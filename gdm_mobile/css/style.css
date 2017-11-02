@@ -31,8 +31,7 @@ h3 {
 
 h4 {
 	font-size: 2em;
-	font-weight: 500;
- font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 	padding: 1%;
 }
 
@@ -75,6 +74,9 @@ footer {
   clear: both;
 }
 
+ul {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 #container {
 	width: 820px;
 }
