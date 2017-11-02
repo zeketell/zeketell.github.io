@@ -96,11 +96,16 @@ footer {
   width: 820px;
 }
 
+.headline {
+  font-weight: 700;
+}
+
 .mobiletext {
   font-size: 2.2em;
   padding: 1%;
   margin: 1%;
 }
+
 .logosml {
   font-size: .4em;
 }
