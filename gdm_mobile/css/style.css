@@ -3,9 +3,8 @@
 body {
 	font-family: 'Sanchez', serif;
 	font-size: 34px;
+  background: #fff;
   text-align: center;
-  background: #2a5b54;
-
 }
 
 h1 {
@@ -50,6 +49,8 @@ img {
 
 a {
   color: #000;
+  display: block;
+  overflow: auto;
 	text-decoration: none;
   margin: 0 auto
 }
@@ -57,7 +58,7 @@ a {
 header {
   text-align: left;
   border-bottom: 6px solid turquoise;
-  clear: both;
+  background: #fff;
 }
 
 section {
@@ -66,6 +67,7 @@ section {
 }
 
 footer {
+  background: #cecece;
   clear: both;
 }
 
@@ -75,7 +77,10 @@ ul {
 
 #wrapper {
   width: 900px;
-  margin: 0 auto;
+  background: #2a5b54;
+  padding: 10px;
+  clear:both;
+
 }
 
 #container {
