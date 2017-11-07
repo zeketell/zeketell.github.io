@@ -2,23 +2,21 @@
 
 body {
 	font-family: 'Sanchez', serif;
-	font-size: 34px;
-  background: #fff;
-  text-align: center;
+	font-size: 26px;
+  background-color: #fff;
 }
 
 h1 {
-	font-size: 36px;
-  font-weight: 500;
-	font-family: 'Anton', sans-serif;
-	padding: 1%;
-
+  font-size: 2.4em;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 50%;
+  float: left;
+  margin: ;
 }
 
 h2 {
 	font-size: 1.75em;
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: left;
 	color: black;
 	padding: 1%;
 
@@ -58,7 +56,6 @@ a {
 header {
   text-align: left;
   border-bottom: 6px solid turquoise;
-  background: #fff;
 }
 
 section {
@@ -80,6 +77,7 @@ ul {
   background: #2a5b54;
   padding: 10px;
   clear:both;
+  margin: 0 auto;
 
 }
 
@@ -92,6 +90,17 @@ ul {
   width: 69%;
   padding: 1.5%;
   clear: both;
+}
+
+#toparticle {
+
+}
+
+#topimg {
+  display: block;
+  float: right;
+  width: 90%;
+
 }
 
 #aside {
@@ -114,6 +123,14 @@ ul {
   text-align: left;
   padding: 2%;
   margin: 1%;
+}
+
+#logotext {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Anton', sans-serif;
+  padding: 1%;
+
 }
 
 .logosml {
