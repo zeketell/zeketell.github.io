@@ -7,11 +7,10 @@ body {
 }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
   width: 50%;
-  float: left;
-  margin: ;
+  height: 375px;
 }
 
 h2 {
@@ -35,27 +34,26 @@ h4 {
 	padding: 1%;
 }
 
-p {
-  padding: 1%;
-}
-
 img {
-
-	padding: 20px;
-
+display: inline-block;
+float: right;
+padding: 2%;
 }
 
 a {
   color: #000;
-  display: block;
-  overflow: auto;
 	text-decoration: none;
-  margin: 0 auto
 }
 
 header {
   text-align: left;
   border-bottom: 6px solid turquoise;
+}
+
+#aside {
+  float: left;
+  width: 18%;
+  display: inline;
 }
 
 section {
@@ -72,40 +70,11 @@ ul {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#wrapper {
-  width: 900px;
-  background: #2a5b54;
-  padding: 10px;
-  clear:both;
-  margin: 0 auto;
-
-}
-
-#container {
-	width: 820px;
-}
-
 #article {
-  float: left;
-  width: 69%;
-  padding: 1.5%;
-  clear: both;
-}
-
-#toparticle {
-
-}
-
-#topimg {
-  display: block;
+  width: 80%;
+  background: #2a5b54;
   float: right;
-  width: 90%;
-
-}
-
-#aside {
-  float: right;
-  width: 28%;
+  padding: 1%;
 }
 
 #content {

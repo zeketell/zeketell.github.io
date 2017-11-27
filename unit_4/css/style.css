@@ -1,67 +1,103 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro|Roboto');
 
 body {
-	color: #BF00FF;
-	font-family: "Maven Pro", sans-serif;
+	font-family: "Roboto", sans-serif;
+	font-size: 36px;
+	color: black;
 	text-align: center;
 }
 
 h1 {
-	font-size: 2em;
-	font-family: "Maven Pro", sans-serif;
-	color: rgba(190,190,190,.5);
+	font-size: 6em;
+	font-weight: 700;
+	line-height: 1.5em;
+	/*color: #FF00FF;*/
 }
 
 img {
-	width: 555px;
-	padding: 8px;
-	border: 4px black solid;
-	margin: 10px;
+	height: 140px;
+	background-color: white;
+	padding: 10px;
+	margin: 5px;
 }
 
 h2 {
 	font-size: 2em;
-	font-family: "Maven Pro", sans-serif;
-	color: #FF00FF;
+	/*color: #FF00FF;*/
 	font-weight: 700;
 }
 
 p {
 	font-size: 1em;
-	font-family: "Maven Pro", sans-serif;
-	color: #FF00FF;
+	/*color: #FF00FF;*/
 	font-weight: 300;
 }
 
 a {
-	font-size: 5em;
-	font-family: "Maven Pro", sans-serif;
-	color: #FF00FF;
-	font-weight: 700;
+	color: black;
+	display: inline;
 	text-decoration: none;
-	padding: 60px 0;
 }
 
-#wrapper {
-	width: 860px;
-	margin: 0 auto;
-	background-color: lightgrey;
-}
-
-#aqua {	
-	background-color: #00E1DD
-}
 
 header {
-	background-color: #FFF;
+/*	color: #BF00FF;*/
+
 }
 
 nav {	
-	background-color: #00E1DD
+
 }
 
-footer {
-	background-color: #fff;
-	font-size: 12px;
+ul {
+	display: inline-block;
 }
+footer {
+/*	background-color: #C5C5C5;*/
+	font-size: 12px;
+	padding: 40px;
+	margin: 40px;
+}
+
+a:hover {
+	color: #00A5E1;
+}
+
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#article {
+	/*background-color: orange;*/
+	margin: 10px auto;
+	padding: 20px 0;
+	width: 75%;
+}
+
+#art2 {	
+	font-size: 2em;
+	background-color: #00E1DD; 
+	font-weight: 700;
+	width: 500px;
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	margin: 40px auto;
+	border: 3px solid #00E1DD;
+	clear: both;
+}
+
+#aqua {	
+	background-color: #00E1DD;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 
