@@ -2,13 +2,14 @@
 
 body {
 	font-family: 'Sanchez', serif;
-	font-size: 26px;
-/*  background-color: #a6acb5;*/
+	font-size: 24px;
+  background-color: #2a5b54;
 }
 
 h1 {
   font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
+  color: black;
 }
 
 h2 {
@@ -28,60 +29,81 @@ h3 {
 h4 {
 	font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
+  color: black;
   font-weight: 700;
 	padding: 1%;
 }
 
 img {
-display: inline-block;
-padding: 2%;
-}
-
-p {
-  text-align: left;
-  padding: 10px;
+  display: inline-block;
+  padding: 2%;
+  margin: 0 auto;
 }
 
 a {
-  color: #000;
+  color: turquoise;
 	text-decoration: none;
-  padding: 20px;
+  padding: 26px;
 }
 
 header {
-  background-color: #fff;
+  background-color: #000;
   text-align: center;
-  border-bottom: 6px solid turquoise;
+  padding: 24px 0;
+  border-bottom: 24px solid turquoise;
 }
 
+nav a:hover {
+  background-color: turquoise;
+  color: #000;
+}
+
+#article a:hover {
+  font-weight: bold;
+}
 footer {
-  background: #a6acb5;
-  clear: both;
+  background: #fff;
+  color: #2a5b54;
+  font-size: .6em;
+  text-align: center;
 }
 
 ul {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#container {
-  width: 95%;
-  margin: 0 auto;
+#container {}
 
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
 }
 
 #article {
-  background: #fff;
+/*  background: #000;*/
   padding: 2% 10% 10%;
   margin: 0 auto;
   text-align: center;
 }
 
+#headersub {
+    background-color: #000;
+    text-align: center;
+    padding: 40px;
+}
+
 #content {
+  background-color: #fff;
 }
 
 .headline {
+  display: inline;
+  float: left;
+  text-align: center;
   font-size: 2.5em;
-  margin: 1.5% auto;
+  width: 50%;
+  padding: 4% 2%;
 }
 
 .mobiletext {
@@ -93,15 +115,39 @@ ul {
   margin: 1%;
 }
 
+#topbox {
+}
 #logotext {
-  font-size: 32px;
+  color: turquoise;
+  font-size: 42px;
   font-weight: 500;
   font-family: 'Anton', sans-serif;
+  font-style: italic;
+  width: 250px;
+  padding: 10px 0;
+  margin: 0 auto 60px;
+  border: 10px solid turquoise;
+}
 
+#logotextsub {
+  color: turquoise;
+  font-size: 42px;
+  font-weight: 500;
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  width: 250px;
+  padding: 10px 0;
+  margin: 0 auto;
+  border: 10px solid turquoise;
 }
 
 .logosml {
   font-size: .4em;
+  color: turquoise;
+}
+
+.logo {
+  width:34%
 }
 
 .clearfix:after {
