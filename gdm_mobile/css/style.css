@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|News+Cycle:700|Quattrocento+Sans|Sanchez|Source+Sans+Pro|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Anton|Source+Sans+Pro');
 
 body {
 	font-family: 'Source Sans Pro', serif;
@@ -30,7 +30,7 @@ h2 {
   color: black;
   text-transform: uppercase;
   text-align: left;
-  width: 381px;
+  width: 95%;
   padding: 12px 0 12px 4px;
 }
 
@@ -73,7 +73,7 @@ nav a {
   color: rgb(255,255,255);
   text-decoration: none;
   display: inline-block;
-  width: 208px;
+  width: 16.8%;
   padding: 18px;
 }
 
@@ -95,9 +95,6 @@ ul {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#container {
-
-}
 
 #container {
   margin: 0 auto;
@@ -105,16 +102,10 @@ ul {
   border-top: 16px solid rgb(0,146,70);
 }
 
-
-#article {
-  width: 95%;
-  margin: 0 auto;
-}
-
 #mainarticle {
   background: #fff;
   display: inline-block;
-  padding: 0 0 32px 0;
+  padding: 0 0 2.9% 0;
   margin: 16px;
   border-bottom: 1px solid lightgrey;
 }
@@ -145,7 +136,6 @@ ul {
   display: inline-block;
   float: left;
   width: 66%;
-  /*border-bottom: 1px solid lightgrey;*/
 }
 
 #main2 p {
@@ -177,10 +167,6 @@ ul {
   border-bottom: 1px solid lightgrey;
 
 }
-
-/*#main2brdr {
-  border-bottom: 1px solid lightgrey;
-}*/
 
 #main3 {
   background: #fff;
@@ -222,23 +208,6 @@ ul {
   border-bottom: 1px solid lightgrey;
 }
 
-#second {
-  background: #fff;
-  display: inline-block;
-  width: 650px;
-  height: 600px;
-  float: left;
-  padding-top: 15px;
-}
-
-#second p {
-  font-size: 20px;
-}
-
-#second img {
-  margin-left: 58.5px;
-}
-
 #aside {
   font-size: .6em;
   color: #fff;
@@ -250,21 +219,6 @@ ul {
   float: left;
   text-align: center;
 }
-
-#aside img {
-  width: 200px;
-  padding-bottom: 6px;
-  margin: 0 auto;
-}
-
-/*#gdmaside {
-  color: rgb(206,43,55);
-  background: rgb(255,255,255);
-  text-transform: uppercase;
-  font-weight: bolder;
-  line-height: 20px
-
-}*/
 
 #newscolumn {
   width: 25%;
@@ -281,19 +235,6 @@ ul {
   text-transform: uppercase;
   text-decoration: underline;
   padding: 0 0 12px 0;
-}
-}
-#column2 {
-  width: 30%;
-  float: left;
-  margin-top: 2%;
-}
-
-#column3 {
-  width: 30%;
-  margin-top: 2%;
-  margin-left: 5%;
-  float: left;
 }
 
 #headersub {
@@ -356,9 +297,6 @@ ul {
   color: turquoise;
 }
 
-.logo {
-  width:30%
-}
 
 .clearfix:after {
   visibility: hidden;
