@@ -344,12 +344,12 @@ padding: 2% 0;
 @media screen and (max-width: 1014px) {
 
 #heroimage {
-  width: 60%;
+  width: 90%;
   float: none;
   margin: 0 auto;
 }
 #aside {
-  width: 60%;
+  width: 90%;
   float: none;
   margin: 0 auto;
 }
