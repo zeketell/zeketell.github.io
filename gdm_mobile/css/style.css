@@ -69,7 +69,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: .8em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   color: black;
@@ -196,11 +196,13 @@ margin-top: 12px;
 #main3 {
   display: inline-block;
   float: left;
-  padding: 0 16px 0 16px;
-  margin-top: 16px;
+ /* padding: 0 16px 0 16px;*/
+  margin-top: 18px;
+  padding: 18px 0; 
   clear:both;
-  background: silver;
-  border: 8px dotted black;
+  border-top: 1px solid lightgrey;
+/*  background: silver;
+  border: 8px dotted black;*/
 }
 
 #main3 p {
@@ -209,31 +211,31 @@ margin-top: 12px;
 
 #main3a {
   width: 29%;
-  height: 500px;
+  height: 350px;
   float: left;
-  padding: 0 12px 0 0;
+  padding: 0 18px 0 0;
   border-right: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+ /* border-bottom: 1px solid lightgrey;*/
 /*  border: 8px solid yellow;*/
 }
 
 #main3b {
   width: 29%;
-  height: 500px;
+  height: 350px;
   float: left;
-  padding: 0 16px;
+  padding: 0 20px;
   border-right: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+/*  border-bottom: 1px solid lightgrey;*/
 /*  border: 8px solid red;*/
 }
 
 #main3c {
   width: 29%;
-  height: 500px;
+  height: 350px;
   float: left;
-  padding: 0 16px;
+  padding: 0 18px;
   border-right: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+/*  border-bottom: 1px solid lightgrey;*/
 /*  border: 8px solid orange;*/
 }
 
