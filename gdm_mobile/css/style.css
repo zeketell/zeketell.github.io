@@ -344,26 +344,26 @@ padding: 2% 0;
 @media screen and (max-width: 1014px) {
 
 #heroimage {
-  width: 90%;
+  width: 80%;
   float: none;
   margin: 0 auto;
+  border: ;
 }
 #aside {
-  width: 90%;
+  width: 80%;
   float: none;
   margin: 0 auto;
 }
 
-/*#mainarticle {
-  padding: 2% 0;
-  margin: 0 2%;
+#mainarticle {
+  font-size: 2em;
   border-top: none;
   border-bottom: 1px solid lightgrey;
-}*/
+}
 
-/*#mainarticle img {
-  width: 600px;
-}*/
+#mainarticle img {
+  width: 100%;
+}
 
 /*  nav a {
     display: inline-block;
