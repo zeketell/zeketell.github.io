@@ -4,6 +4,43 @@ body {
 	font-family: 'Source Sans Pro', serif;
 	font-size: 24px;
   background-color: #fff;
+  text-align: left;
+}
+
+header {
+  background-color: #000;
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 16px;
+  border-bottom: 16px solid rgb(206,43,55);
+/*  border: 8px dotted pink;*/
+}
+
+p {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+  /*text-decoration: none;*/
+  text-transform: capitalize;
+}
+
+nav a {
+  font-size: 1em;
+  color: rgb(210,210,210);
+  /*text-decoration: none;*/
+  display: inline-block;
+  width: 16%;
+  padding: 1% 2.5% 2%;
+}
+
+nav a:hover {
+  color: rgb(255,255,255);
+  font-weight: bolder;
 }
 
 h1 {
@@ -11,12 +48,8 @@ h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   color: black;
-  text-align: left;
   text-transform: uppercase;
-  line-height: 48px;
-  float: left;
-  width: 45%;
-  padding: .8%;
+/*  border: 4px dotted green;*/
 }
 
 h2 {
@@ -28,7 +61,7 @@ h2 {
   text-align: left;
   width: 95%;
   padding: 12px 0 12px 4px;
-  border: 4px dotted green;
+  /*border: 4px dotted green;*/
 }
 
 h3 {
@@ -54,108 +87,59 @@ h4 {
   border: 4px dotted green;
 }
 
-.mobiletext {
-  font-size: 2.2em;
-  color: #888;
-  font-weight: lighter;
-  text-align: left;
-  padding: 2%;
-  margin: 1%;
-}
-
-header {
-  background-color: #000;
-  text-align: center;
-  padding-top: 5px;
-  margin-bottom: 16px;
-  border-bottom: 16px solid rgb(206,43,55);
-/*  border: 8px dotted pink;*/
-}
-
-#logotext {
-  color: #fff;
-  font-size: 42px;
-  font-weight: 500;
-  font-family: 'Anton', sans-serif;
-/*  font-style: italic;*/
-/*  width: 250px;*/
-  padding: 10px 0;
-  margin: 0 auto 20px;
-/*  border: 5px solid #000;*/
-}
-
-#logotextsub {
-  color: turquoise;
-  font-size: 42px;
-  font-weight: 500;
-  font-family: 'Anton', sans-serif;
-  font-style: italic;
-  width: 250px;
-  padding: 10px 0;
-  margin: 0 auto;
-  border: 10px solid turquoise;
-}
-
-.logosml {
-  font-size: .4em;
-  color: turquoise;
-}
-header a {
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-nav a {
-  font-size: 18px;
-  color: rgb(255,255,255);
-  text-decoration: none;
-  display: inline-block;
-  width: 16.8%;
-  padding: 18px;
-}
-
-nav a:hover {
-  padding: 14px 18px;
-  /*border-bottom: 4px solid white;*/
-  font-weight: bolder;
-}
+h5 {  
+  font-size: .5em;
+  float: left;
+  width: 45%;
+  padding: .8%;}
 
 ul {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+footer {
+  background: #fff;
+  color: #2a5b54;
+  font-size: .5em;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
 
 #container {
-  padding: 16px 0;
   border-top: 16px solid rgb(0,146,70);
-  /*background: gold;*/
-/*  border: 8px dotted orange;*/
+ /* background: gold;*/
+  /*border: 8px dotted gold;*/
 }
 
 #mainarticle {
-  background: #fff;
-  display: inline-block;
-  margin: 16px 16px 60px 16px;
-  padding-bottom: 16px;
+  padding: none;
+  margin: 32px 2.5%;
+  border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
-/*  background: rgb(240,150,150);*/
-/*  border: 8px dotted red;*/
-}
-
-#mainarticle p {
-  font-size: .75em;
-  float: left;
-  width: 45%;
-  padding: .8%;
-  /*margin: 1% 0;*/
 /*  border: 4px dotted orange;*/
 }
 
+#mainarticle p {
+padding: 2% 0;
+}
+
 #mainarticle img {
+  width: 90%;
+  padding: 32px 0;
+/*  border: 2px dotted red;*/
+}
+
+#heroimage {
+  width: 50%;
   float: left;
-  width: 45%;
-  padding: .8% .8% 1.6% 3.2%;
-/*  border-right: 4px dotted blue;*/
+/*  border:4px dotted blue*/
+}
+
+#aside {
+  width: 50%;
+  float: right;
+  padding: 2% 0;
 }
 
 #belowmain {
@@ -164,7 +148,7 @@ ul {
   float: left;
   width: 60%;
   border: 8px dotted purple;
-  /*background: rgb(175,25,175);*/
+  /*background: rgb(175,25,175);
 }
 
 #belowmain p {
@@ -176,7 +160,6 @@ ul {
 #belowmain img {
   width: 95%;
   border: 4px dotted blue;
-
 }
 
 #main2a {
@@ -272,21 +255,21 @@ ul {
 #currenttab {
   color: rgb(255,255,255);
   font-weight: bolder;
-  padding: 14px 18px;
-  border-top: 4px solid white;
 }
 
-#readmore {
+.readmore {
   color: grey;
   font-size: 12px;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 
-#tag {
+.tag {
   color: rgb(206,43,55);
+  font-size: .5em;
+
 }
 
-#newsem {  
+.newsem {  
   color: rgb(206,43,55);
   font-weight: bold;
 }
@@ -295,6 +278,45 @@ ul {
     background-color: #000;
     text-align: center;
     padding: 40px;
+}
+
+.mobiletext {
+  font-size: 2.2em;
+  color: #888;
+  font-weight: lighter;
+  text-align: left;
+  padding: 2%;
+  margin: 1%;
+}
+
+
+#logotext {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 500;
+  font-family: 'Anton', sans-serif;
+/*  font-style: italic;*/
+/*  width: 250px;*/
+  padding: 10px 0;
+  margin: 0 auto 20px;
+/*  border: 5px solid #000;*/
+}
+
+#logotextsub {
+  color: turquoise;
+  font-size: 42px;
+  font-weight: 500;
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  width: 250px;
+  padding: 10px 0;
+  margin: 0 auto;
+  border: 10px solid turquoise;
+}
+
+.logosml {
+  font-size: .4em;
+  color: turquoise;
 }
 
 #content {
@@ -310,15 +332,6 @@ ul {
   padding: 4% 2%;
 }
 
-footer {
-  background: #fff;
-  color: #2a5b54;
-  font-size: .5em;
-  text-align: center;
-  padding: 10px;
-  clear: both;
-}
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -329,25 +342,36 @@ footer {
 }
 
 @media screen and (max-width: 1014px) {
-  #mainarticle {
-    text-align: left;
-    margin: 0 auto;
-    padding-left: 100px;
-  }
-  #mainarticle img {
-    width: 75%;
-    margin: 0 auto;
-    padding: 0;
-  }
 
-  #mainarticle p {
-    width: 75%;
-    margin: 0 auto;
-    padding: 10px 0 0 0;
-  }
+#heroimage {
+  width: 60%;
+  float: none;
+  margin: 0 auto;
+}
+#aside {
+  width: 60%;
+  float: none;
+  margin: 0 auto;
+}
 
-  h1 {
-    width: 75%;
-    margin: 0 auto;
+/*#mainarticle {
+  padding: 2% 0;
+  margin: 0 2%;
+  border-top: none;
+  border-bottom: 1px solid lightgrey;
+}*/
+
+/*#mainarticle img {
+  width: 600px;
+}*/
+
+/*  nav a {
+    display: inline-block;
+    width: 20%;
+    padding: 24px 30%;
+  }*/
+
+  #logotext {
+    font-size: 3em;
   }
 }
