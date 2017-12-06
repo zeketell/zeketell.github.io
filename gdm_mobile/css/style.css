@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Source Sans Pro', serif;
-	font-size: 24px;
+	font-size: 28px;
   background-color: #fff;
   text-align: left;
 }
@@ -11,12 +11,13 @@ header {
   background-color: #000;
   text-align: center;
   padding-top: 5px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   border-bottom: 16px solid rgb(206,43,55);
 /*  border: 8px dotted pink;*/
 }
 
 p {
+  font-size: .6em
 
 }
 
@@ -30,7 +31,7 @@ header a {
 }
 
 nav a {
-  font-size: 1em;
+  font-size: .65em;
   color: rgb(210,210,210);
   /*text-decoration: none;*/
   display: inline-block;
@@ -44,11 +45,12 @@ nav a:hover {
 }
 
 h1 {
-  font-size: 1.75em;
+  font-size: 1.3em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   color: black;
   text-transform: uppercase;
+  padding-left: 4px;
 /*  border: 4px dotted green;*/
 }
 
@@ -114,32 +116,34 @@ footer {
 
 #mainarticle {
   padding: none;
-  margin: 32px 2.5%;
+  margin: 18px 2.5%;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
 /*  border: 4px dotted orange;*/
 }
 
 #mainarticle p {
-padding: 2% 0;
+padding: 1.5% 0;
+margin-top: 12px;
+/*border: 2px dotted orange;*/
 }
 
 #mainarticle img {
-  width: 90%;
-  padding: 32px 0;
+  margin: 28px 0;
+  width: 100%;
 /*  border: 2px dotted red;*/
 }
 
 #heroimage {
-  width: 50%;
+  width: 48%;
   float: left;
-/*  border:4px dotted blue*/
 }
 
 #aside {
-  width: 50%;
+  width: 46%;
   float: right;
-  padding: 2% 0;
+  padding: 0 2%;
+  margin: 6% 0 2%;
 }
 
 #belowmain {
@@ -266,7 +270,8 @@ padding: 2% 0;
 .tag {
   color: rgb(206,43,55);
   font-size: .5em;
-
+  display: inline-block;
+  margin-bottom: 12px;
 }
 
 .newsem {  
@@ -341,7 +346,7 @@ padding: 2% 0;
   height: 0;
 }
 
-@media screen and (max-width: 1014px) {
+@media screen and (max-width: 1010px) {
 
 #heroimage {
   width: 100%;
@@ -371,5 +376,11 @@ padding: 2% 0;
 
   #logotext {
     font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #aside {
+    margin: 2% 0;
   }
 }
