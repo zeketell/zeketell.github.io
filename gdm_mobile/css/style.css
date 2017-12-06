@@ -368,11 +368,9 @@ margin-top: 12px;
   width: 100%;
 }
 
-/*  nav a {
-    display: inline-block;
-    width: 20%;
-    padding: 24px 30%;
-  }*/
+  nav a {
+  font-size: 1em;
+}
 
   #logotext {
     font-size: 3em;
