@@ -397,7 +397,11 @@ margin-top: 12px;
   h1 {
     font-size: 1em
   }
-
+  
+  #mainarticle {
+    width: 95%;
+    margin: 18px 2.5%;
+  }
   #mainarticle p {
     font-size: .75em;
   }
