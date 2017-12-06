@@ -411,7 +411,7 @@ margin-top: 12px;
   }
 }
 
-@media screen and (max-width: 726px) {
+@media screen and (max-width: 750px) {
   h1 {
     font-size: 1em
   }
