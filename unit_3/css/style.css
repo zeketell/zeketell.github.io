@@ -3,20 +3,14 @@
 body {
 	color: #FDFFE2;
 	background: #000;
-	font-family: "Maven Pro", sans-serif;
-	margin: 0px 15px 20px 15px;
-
+	font-size: 22px;
+	font-family: "Roboto", sans-serif;
 }
 h1 {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family: "Maven Pro";
 	text-transform: lowercase;
 	text-align: left;
-}
-p {
-	font-size: .8em;
-	font-family: "Roboto", sans-serif;
-	color: #FDFFE2;
 }
 
 a {
@@ -34,25 +28,72 @@ ul {
 	text-align: center;
 }
 
-img {
-	height: 500px;
-	margin: 10px 60px 0px 60px;
-	float: left;
+#heroimage {
+	padding: 4px;
+	border: 4px solid #FDFFE2;
 }
 
-#slogan {	
-	font-size: 4.5em;
+header {
+	padding: 24px 0;
+}
+
+aside {	
+	font-size: 3.5em;
 	font-family: "Maven Pro", sans-serif;
 	font-weight: bold;
 	color: #FDFFE2;
-	font-style: normal;
-	margin: 100px 0px 10px 0px;
+	text-align: center;
+	width: 70%;
+	clear:both;
 }
 
-.desc {
-	font-size: .8em;
-	font-family: "Roboto", sans-serif;
-	color: #FDFFE2;
-	text-align: center;
-	margin: 2em
+.img__img {
+  float: left;
+  padding: 4px;
+  border: 4px solid #FDFFE2;
+}
+
+.img__wrap {
+  position: relative;
+  height: 531px;
+  width: 420px;
+}
+
+.img__description {
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: 8px;
+  right: 0;
+  background: rgba(29, 106, 105, 0.76);
+  text-align: center;
+  padding: 30px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .8s, visibility .8s;
+}
+
+.pt1 {
+  color: #FDFFE2;
+  font-size: .8em;
+  font-weight: 300;
+}
+
+.logo {
+  font-family: "Maven Pro";
+  color: #FDFFE2;
+  font-size: 1.75em;
+  text-transform: lowercase;
+  line-height: 2;
+}
+
+.pt3 {
+  color: #FDFFE2;
+  font-size: .8em;
+  font-weight: 300;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
 }

@@ -1,45 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Anton|Source+Sans+Pro|Khula');
 
 body {
-	font-family: 'Source Sans Pro', serif;
-	font-size: 28px;
+	font-family: 'Khula', sans-serif;
+	font-size: 32px;
   background-color: #fff;
-  text-align: left;
 }
 
 header {
   background-color: #000;
   text-align: center;
-  padding-top: 5px;
-  margin-bottom: 12px;
-  border-bottom: 16px solid rgb(206,43,55);
-/*  border: 8px dotted pink;*/
+  padding: 8px 0 0;
+}
+
+.bandoutside {  
+  background: #bf9b30;
+  height: 1500px;
+  width: 4px;
+  float: left;
+}
+
+#bandtop {
+  background: rgb(206,43,55);
+  height: 1500px;
+  width: 16px;
+  float: left;
+}
+
+#bandmid {
+  background: rgb(255,255,255);
+  height: 1500px;
+  width: 12px;
+  float: left;
+}
+
+#bandbottom {
+  background: rgb(0,146,70);
+  height: 1500px;
+  width: 16px;
+  float: left;
 }
 
 p {
-  font-size: .6em
-
+  font-size: .6em;
+  font-weight: 500;
 }
 
 a {
   text-decoration: none;
 }
-
-#newscolumn h4:hover {
-  text-decoration: underline;
-}
-
-#mainarticle h1:hover {
-  text-decoration: underline;
-}
-#belowmain h2:hover {
-  text-decoration: underline;
-}
-
-#main3 h3:hover {
-  text-decoration: underline;
-}
-
 
 header a {
   /*text-decoration: none;*/
@@ -48,64 +56,81 @@ header a {
 
 nav a {
   font-size: .65em;
-  color: rgb(210,210,210);
+  color: rgb(200,200,200);
   /*text-decoration: none;*/
   display: inline-block;
-  width: 16%;
-  padding: 1% 2%;
+  width: 150px;
+  padding: 0 2%;
+  margin: 0 0 8px;
 }
 
 nav a:hover {
   color: rgb(255,255,255);
-  font-weight: bolder;
-  border-top: 2px solid white;
+  font-weight: 700;
+  border-top: 2.2px solid white;
   padding: .8% 2%;
+  transition: border .21s;
 }
 
 h1 {
-  font-size: 1.3em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 500;
+  font-size: 1.2em;
+  font-family: 'Khula', sans-serif;
+  font-weight: 600;
   color: black;
   text-transform: uppercase;
   display: inline-block;
-  padding-left: 4px;
-/*  border: 4px dotted green;*/
+  padding-left: 2%;
+}
+
+#aside h1:hover {
+  text-decoration: underline;
 }
 
 h2 {
-	font-size: 1.2em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 500;
+	font-size: 1em;
+  font-family: 'Khula', sans-serif;
+  font-weight: 600;
   color: black;
   text-transform: uppercase;
   text-align: left;
   width: 95%;
   padding: 12px 0 12px 4px;
-  /*border: 4px dotted green;*/
+/*  background: blue;*/
+}
+
+#belowmain h2:hover {
+  text-decoration: underline;
 }
 
 h3 {
   font-size: .8em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 500;
+  font-family: 'Khula', sans-serif;
+  font-weight: 600;
   color: black;
   text-transform: uppercase;
   text-align: left;
   padding: 12px 0 12px 4px;
-/*  border: 4px dotted green;*/
+  background: #606060;
+}
+
+#main3 h3:hover {
+  text-decoration: underline;
 }
 
 h4 {
-  font-size: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
+  font-size: .8em;
+  font-family: 'Khula', sans-serif;
+  font-weight: 600;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
   text-align: left;
   padding: 12px 0;
- /* border: 4px dotted green;*/
+  background: yellow;
+}
+
+#newscolumn h4:hover {
+  text-decoration: underline;
 }
 
 h5 {  
@@ -115,7 +140,7 @@ h5 {
   padding: .8%;}
 
 ul {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Khula', sans-serif;
 }
 
 footer {
@@ -127,65 +152,57 @@ footer {
   clear: both;
 }
 
-#container {
-  border-top: 16px solid rgb(0,146,70);
-  padding: 1.5%;
- /* background: gold;*/
-  /*border: 8px dotted gold;*/
-}
-
-#mainarticle {
-  padding: none;
-  margin: 18px 0;
+#tempwrapper {
+  width: 98%;
+  margin: 16px 1%;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
-/*  border: 4px dotted orange;*/
-}
-
-#mainarticle p {
-padding: 1.5% 0;
-margin-top: 12px;
-/*border: 2px dotted orange;*/
-}
-
-#mainarticle img {
-  margin: 28px 0;
-  width: 100%;
-/*  border: 2px dotted red;*/
 }
 
 #heroimage {
-  width: 48%;
+  display: inline-block;
   float: left;
+  width: 50%;
+  margin: 16px 0;
 }
 
-#aside {
-  width: 46%;
-  float: right;
-  margin: 6% 2% 2%;
+#heroimage img {
+  width: 100%;
 }
+
+
+#aside {
+  background: rgb(255,255,255);
+  width: 48%;
+  float: left;
+  padding: 32px 0;
+}
+
+#aside p {
+  padding: 1.5%;
+  margin-top: 12px;
+}
+
 
 #belowmain {
   background: #fff;
-  display: inline-block;
+/*  display: inline-block;*/
   float: left;
   width: 60%;
-  margin: 18px 12px 18px 2.5%;
+/*  margin: 18px 12px 18px 2.5%;*/
   border-bottom: 1px solid lightgrey;
-/*  border: 8px dotted purple;
-  background: rgb(175,25,175);*/
 }
 
 #belowmain p {
   font-size: 16px;
   width: 90%;
   padding: 1.5%;
-/*  border: 4px dotted orange;*/
+/*  background: orange;*/
 }
 
 #belowmain img {
   width: 100%;
-/*  border: 4px dotted blue;*/
+/*  background: white;*/
 }
 
 #main2a {
@@ -193,16 +210,14 @@ margin-top: 12px;
   float: left;
   padding-right: 28px;
   border-right: 1px solid lightgrey;
-/*  background: grey;
-  border: 8px dotted yellow;*/
+/*  background: grey;*/
 }
 
 #main2b {
   width: 45%;
   float: left;
   margin-left: 28px;
-/*  border: 8px dotted red;
-  background: rgb(255,100,100)*/
+/*  background: rgb(255,100,100);*/
 }
 
 /*#vertline {
@@ -218,8 +233,7 @@ margin-top: 12px;
   padding: 18px 0; 
   clear:both;
   border-top: 1px solid lightgrey;
-/*  background: silver;
-  border: 8px dotted black;*/
+  background: silver;
 }
 
 #main3 p {
@@ -227,28 +241,28 @@ margin-top: 12px;
 }
 
 #main3a {
-  width: 29%;
+  width: 30%;
   float: left;
   padding: 0 1.5% 0 0;
-  border-right: 1px solid lightgrey;
+  /*border-right: 1px solid lightgrey;*/
  /* border-bottom: 1px solid lightgrey;*/
 /*  border: 8px solid yellow;*/
 }
 
 #main3b {
-  width: 29%;
+  width: 30%;
   float: left;
   padding: 0 1.5%;
-  border-right: 1px solid lightgrey;
+  /*border-right: 1px solid lightgrey;*/
 /*  border-bottom: 1px solid lightgrey;*/
 /*  border: 8px solid red;*/
 }
 
 #main3c {
-  width: 29%;
+  width: 30%;
   float: left;
   padding: 0 1.5%;
-  border-right: 1px solid lightgrey;
+  /*border-right: 1px solid lightgrey;*/
 /*  border-bottom: 1px solid lightgrey;*/
 /*  border: 8px solid orange;*/
 }
@@ -259,26 +273,29 @@ margin-top: 12px;
   padding: 0 2.5%;
   margin: 18px 0;
   border-left: 1px solid lightgrey;
-/*  border: 8px dotted turquoise;*/
+  background: turquoise;
 }
 
 #latest {
   font-size: 1.2em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Khula', sans-serif;
   font-weight: 500;
   color: black;
   text-transform: uppercase;
   text-decoration: underline;
   padding: 0 0 12px 0;
+  background: white;
 }
 
 #currenttab {
   color: rgb(255,255,255);
   font-weight: bolder;
+  border-top: 2.2px solid white;
+  padding: .8% 2%;
 }
 
 .readmore {
-  color: grey;
+  color: #bf9b30;
   font-size: 12px;
   text-decoration: none;
 }
@@ -286,7 +303,7 @@ margin-top: 12px;
 .tag {
   color: rgb(206,43,55);
   font-size: .5em;
-  display: inline-block;
+  font-weight: 400;
   margin-bottom: 12px;
 }
 
@@ -308,7 +325,7 @@ margin-top: 12px;
 
 #logotext {
   color: #fff;
-  font-size: 42px;
+  font-size: 50px;
   font-weight: 500;
   font-family: 'Anton', sans-serif;
 /*  font-style: italic;
@@ -327,24 +344,115 @@ margin-top: 12px;
   height: 0;
 }
 
-@media screen and (max-width: 1010px) {
-  
-  #heroimage {
-    width: 100%;
-    float: none;
-    padding: none;
-    margin: none;
-  }
+/*@media screen and (max-width: 1255px) {
   #aside {
-    width: 100%;
-    float: left;
-    margin: 0% 0% 0%;
+    margin: .5% 1.5%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  #aside {
+    margin: 3% 2%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  #aside {
+  margin: 2.75% 2% 2%;
+  }
+}*/
+
+@media screen and (max-width: 1125px) {
+  #aside p {
+    margin: .5% 1.5%;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  #tempwrapper {
+    border: 0;
+  }
+  #heroimage {
+    width: 70%;
+    float: none;
+    padding: 24px 0;
+    margin: 16px 15% 0;
+    border-top: 1px solid lightgrey;
+  }
+
+  #aside {
+    width: 70%;
+    float: none;
+    padding: 0;
+    margin: 0 15%;
+  }
+
+  #aside p {
+    padding: 1.5% 0;
+    margin: 0;
+  }
+
+  h1 {
+    padding-left: 0;
+  }
+
+  #belowmain {
+    width: 70%;
+    margin: 16px 15%;
+    padding: 16px 0;
+    border-top: 1px solid lightgrey;
+  }
+
+  #main2a {
+    width: 48%;
+    padding: 0;
+    margin: 0 2% 0 0;
+    border: 0;
+  }
+
+  #main2b {
+    width: 48%;
+    padding: 0;
+    margin: 0 0 0 2%;
+    border: 0;
+  }
+  
+  #newscolumn {
+    width: 76%;
+    margin: 18px 12%;
+    padding: none;
+    border: none;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  #heroimage {
+    width: 95%;
+    float: none;
+    padding: 0;
+    margin: 16px 2.5%;
+  }
+
+  #aside {
+    width: 95%;
+    float: none;
+    padding: 0;
+    margin: 16px 2.5%;
+  }
+
+  #aside p {
+    margin: 0;
   }
 
   #mainarticle {
-    width: 70%;
-    margin: 18px 15%;
-    font-size: 1.5em;
+    width: 96%;
+    margin: 18px 2%;
+    padding: none;
+  }
+
+  nav a {
+    display: none;
   }
 
   h1 {
@@ -359,7 +467,6 @@ margin-top: 12px;
   #belowmain {
     width: 97%;
     margin: 18px 1.5%;
-    font-size: 1.5em;
   }
 
   #main2a {
@@ -370,74 +477,7 @@ margin-top: 12px;
     width: 46%;
   }
 
-  nav a {
-    display:none;
-  }
-
   #mainarticle p {
-    font-size: 1em;
   }
   
-  h2 {
-    font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 1140px) {
-  #aside {
-    margin: 2%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  #logotext {
-    font-size: 3em;
-  }
-
-  h1 {
-    font-size: 1em
-  }
-  
-  #mainarticle {
-    width: 95%;
-    margin: 18px 2.5%;
-  }
-  #mainarticle p {
-    font-size: .75em;
-  }
-   
-   nav a {
-    font-size: .4em;
-  }
-
-  #main2a {
-    width: 90%;
-    padding-bottom: 18px;
-    border-bottom: 1px solid lightgrey;
-    border-right: none;
-  }
-
-  #main2a p {
-    width: 60%;
-  }
-
-  #main2a img {
-    width: 140px;
-    float: right;
-  }
-
-  #main2b {
-    width: 90%;
-    margin: 18px 0;
-    margin-left: 0;
-  }
-
-  #main2b p{
-    width: 70%;
-  }
- 
-  #main2b img {
-    width: 140px;
-    float: right;
-  }
 }
