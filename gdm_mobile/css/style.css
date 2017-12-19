@@ -10,7 +10,7 @@ header {
   background-color: #000;
   text-align: center;
   padding: 8px 0 0;
-  border-bottom: 11px solid #B9B9B9;
+  border-bottom: 8px solid #B9B9B9;
 }
 
 .bandoutside {  
@@ -369,7 +369,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1010px) {
+/*@media screen and (max-width: 1010px) {
   #tempwrapper {
     border: 0;
   }
@@ -425,9 +425,9 @@ footer {
     border: none;
   }
 
-}
+}*/
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1010px) {
   #heroimage {
     width: 95%;
     float: none;
