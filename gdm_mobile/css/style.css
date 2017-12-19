@@ -426,7 +426,7 @@ footer {
 
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width:900px) {
   #heroimage {
     width: 95%;
     float: none;
