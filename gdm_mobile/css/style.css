@@ -10,6 +10,7 @@ header {
   background-color: #000;
   text-align: center;
   padding: 8px 0 0;
+  border-bottom: 11px solid #B9B9B9;
 }
 
 .bandoutside {  
@@ -67,9 +68,9 @@ nav a {
 nav a:hover {
   color: rgb(255,255,255);
   font-weight: 700;
-  border-top: 2.2px solid white;
+  border-top: 2.6px solid white;
   padding: .8% 2%;
-  transition: border .21s;
+  transition: border .25s;
 }
 
 h1 {
@@ -290,7 +291,7 @@ footer {
 #currenttab {
   color: rgb(255,255,255);
   font-weight: bolder;
-  border-top: 2.2px solid white;
+  border-top: 2.6px solid white;
   padding: .8% 2%;
 }
 
